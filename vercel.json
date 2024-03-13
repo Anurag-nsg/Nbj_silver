@@ -1,11 +1,11 @@
 {
     "version": 2,
     "builds": [
-      { "src": "my-app", "use": "@vercel/static-build" }
+      { "src": "Nbj_silver", "use": "@vercel/static-build" }
     ],
     "routes": [
       { "handle": "filesystem" },
-      { "src": "/.*", "dest": "my-app/main.py" }
+      { "src": "/.*", "dest": "Nbj_silver/main.py" }
     ]
   }
   
