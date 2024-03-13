@@ -809,4 +809,4 @@ def main(page:ft.Page):
     
     route2('e')
     
-ft.app(target=main)
+ft.app(target=main,view=ft.WEB_BROWSER)
